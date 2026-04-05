@@ -346,6 +346,6 @@
 	}
 
 	.session__history {
-		@apply base-fieldset-container overflow-scrollbar flex-grow;
+		@apply base-fieldset-container overflow-scrollbar min-h-0 flex-grow;
 	}
 </style>

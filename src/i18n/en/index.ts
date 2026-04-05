@@ -89,7 +89,6 @@ const en = {
 	modelWasDownloaded: '{model:string} was downloaded',
 	modelsFilter: 'Model names filter',
 	modelsFilterHelp: "Hides model names that don't start with the filter",
-	motd: 'Motd',
 	name: 'Name',
 	newKnowledge: 'New knowledge',
 	newSession: 'New session',

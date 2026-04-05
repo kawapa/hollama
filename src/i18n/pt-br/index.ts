@@ -55,7 +55,6 @@ const pt_br = {
 	light: 'Claro',
 	messageOfTheDay: 'Mensagem do dia',
 	modelWasDownloaded: '{model:string} foi baixado',
-	motd: 'Mensagem do dia',
 	name: 'Nome',
 	newKnowledge: 'Novo conhecimento',
 	newSession: 'Nova Sessão',

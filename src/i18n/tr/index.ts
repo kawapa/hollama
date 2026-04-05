@@ -54,7 +54,6 @@ const tr = {
 	light: 'Açık',
 	messageOfTheDay: 'Günün mesajı',
 	modelWasDownloaded: '{model:string} indirildi',
-	motd: 'Günün mesajı',
 	name: 'İsim',
 	newKnowledge: 'Yeni bilgi',
 	newSession: 'Yeni oturum',

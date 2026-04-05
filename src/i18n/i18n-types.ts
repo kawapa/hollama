@@ -364,10 +364,6 @@ type RootTranslation = {
 	 */
 	modelsFilterHelp: string
 	/**
-	 * M​o​t​d
-	 */
-	motd: string
-	/**
 	 * N​a​m​e
 	 */
 	name: string
@@ -1041,10 +1037,6 @@ The completion in progress will stop
 	 * Hides model names that don't start with the filter
 	 */
 	modelsFilterHelp: () => LocalizedString
-	/**
-	 * Motd
-	 */
-	motd: () => LocalizedString
 	/**
 	 * Name
 	 */

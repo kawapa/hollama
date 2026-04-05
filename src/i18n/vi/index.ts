@@ -60,7 +60,6 @@ const vi = {
 	messages: 'Tin nhắn',
 	modelOptions: 'Tùy chọn mô hình',
 	modelWasDownloaded: '{model:string} đã được tải xuống',
-	motd: 'Motd',
 	name: 'Tên',
 	newKnowledge: 'Kiến thức mới',
 	newSession: 'Phiên mới',

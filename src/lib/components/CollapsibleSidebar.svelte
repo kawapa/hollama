@@ -159,19 +159,6 @@
 
 			<div class="border-t px-2 py-3">
 				<a
-					href="/motd"
-					class="duration-25 flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors hover:text-active {pathname.includes(
-						'/motd'
-					)
-						? 'text-active'
-						: 'text-muted'}"
-					aria-current={pathname.includes('/motd') ? 'page' : undefined}
-				>
-					<NotebookText class="h-4 w-4" />
-					{$LL.motd()}
-				</a>
-
-				<a
 					href="/settings"
 					class="duration-25 relative flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors hover:text-active {pathname.includes(
 						'/settings'
@@ -184,16 +171,6 @@
 				>
 					<Settings2 class="h-4 w-4" />
 					{$LL.settings()}
-				</a>
-
-				<a
-					href="https://github.com/fmaclen/hollama"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="duration-25 flex items-center gap-3 px-4 py-3 text-sm font-medium text-muted transition-colors hover:text-active"
-				>
-					<Github class="h-4 w-4" />
-					GitHub
 				</a>
 
 				<button

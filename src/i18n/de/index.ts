@@ -85,7 +85,6 @@ const de = {
 	modelWasDownloaded: '{model:string} wurde heruntergeladen',
 	modelsFilter: 'Modellnamen-Filter',
 	modelsFilterHelp: 'Blendet Modellnamen aus, die nicht mit dem Filter beginnen',
-	motd: 'Nachricht des Tages',
 	name: 'Name',
 	newKnowledge: 'Neues Wissen',
 	newSession: 'Neue Sitzung',

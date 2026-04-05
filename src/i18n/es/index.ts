@@ -78,7 +78,6 @@ const es = {
 	modelWasDownloaded: '{model:string} fue descargado',
 	modelsFilter: 'Filtro de nombres de modelos',
 	modelsFilterHelp: 'Oculta los nombres de modelos que no empiecen con el filtro',
-	motd: 'Mensaje del día',
 	name: 'Nombre',
 	newKnowledge: 'Nuevo conocimiento',
 	newSession: 'Nueva sesión',

@@ -58,7 +58,6 @@ const ja = {
 	messages: 'メッセージ',
 	modelOptions: 'モデル設定',
 	modelWasDownloaded: '{model:string} をダウンロードしました',
-	motd: '本日のメッセージ',
 	name: '名前',
 	newKnowledge: '新しいナレッジ',
 	newSession: '新しいセッション',

@@ -29,14 +29,6 @@ test.describe('Sidebar on desktop', () => {
 			.click();
 		await expect(page).toHaveURL('/settings');
 		await expect(page.getByRole('button', { name: 'Collapse sidebar' })).toBeVisible();
-
-		// Navigate to MOTD page via sidebar link
-		await page
-			.getByRole('navigation', { name: 'Main navigation' })
-			.getByRole('link', { name: 'Motd' })
-			.click();
-		await expect(page).toHaveURL('/motd');
-		await expect(page.getByRole('button', { name: 'Collapse sidebar' })).toBeVisible();
 	});
 
 	test('can be toggled open and closed', async ({ page }) => {
@@ -150,13 +142,6 @@ test.describe('Sidebar on desktop', () => {
 	test('navigation links work correctly', async ({ page }) => {
 		await page.goto('/');
 
-		// Test MOTD link in sidebar
-		await page
-			.getByRole('navigation', { name: 'Main navigation' })
-			.getByRole('link', { name: 'Motd' })
-			.click();
-		await expect(page).toHaveURL('/motd');
-
 		// Test Settings link in sidebar
 		await page
 			.getByRole('navigation', { name: 'Main navigation' })
@@ -232,13 +217,6 @@ test.describe('Sidebar on desktop', () => {
 
 		// Sidebar should remain open on desktop
 		await expect(sidebar).toBeVisible();
-
-		// Navigate to MOTD
-		await page
-			.getByRole('navigation', { name: 'Main navigation' })
-			.getByRole('link', { name: 'Motd' })
-			.click();
-		await expect(page).toHaveURL('/motd');
 
 		// Sidebar should still remain open on desktop
 		await expect(sidebar).toBeVisible();

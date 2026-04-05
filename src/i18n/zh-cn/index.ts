@@ -72,7 +72,6 @@ const zh_cn = {
 	modelWasDownloaded: '{model:string} 已下载',
 	modelsFilter: '模型名称过滤',
 	modelsFilterHelp: '隐藏不以过滤器开头的模型名称',
-	motd: '资讯',
 	name: '名称',
 	newKnowledge: '新建知识',
 	newSession: '新建会话',

@@ -48,13 +48,6 @@ test.describe('Sidebar on mobile', () => {
 		}
 		await expect(sidebar).toBeVisible();
 
-		// Navigate to MOTD
-		await page
-			.getByRole('navigation', { name: 'Main navigation' })
-			.getByRole('link', { name: 'Motd' })
-			.click();
-		await expect(page).toHaveURL('/motd');
-
 		// Sidebar should auto-collapse on mobile
 		await expect(sidebar).not.toBeVisible();
 	});
